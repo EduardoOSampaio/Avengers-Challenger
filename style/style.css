@@ -1,0 +1,267 @@
+/* Formatação geral */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Fim da formatação geral */
+
+body {
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+}
+
+/* Início da formatação do Header */
+
+header {
+    display: block;
+    width: 100%; 
+    height: 100%;
+}
+
+/* Fim formatação do Header */
+
+
+/* Formatação h1 */
+
+h1 {
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    width: auto;
+    height: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    
+
+    
+}
+
+/* Fim formatação H1 */
+
+/* Início da Formatação capa */
+
+#capa {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+
+/* Fim formatação capa */
+
+/*Início da Formatação nav */
+
+nav {
+    padding: 0;
+    margin: 0;
+    float: right;
+    
+
+}
+
+/* Fim formatação nav */
+
+
+/* Início formatação UL, LI, A */
+
+nav > ul, li, a {
+    display: inline;
+    float: left;
+    
+}
+
+/* Fim da formatação UL, LI, A */
+
+/* Inicio formatação LI */
+
+li {
+    width: 70px;
+}
+
+/* Fechamento formatação LI */
+
+/* Início formatação A */
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    width: 70px;
+    height: 35px;
+    margin: 30px; 
+
+    
+}
+
+/* Fim formatação A */
+
+
+/* Início formatação .link-navbar:hover */
+
+ .link-navbar:hover {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    text-decoration: underline;
+
+}
+
+/* Fim formatação .link-navbar:hover */
+
+/* Abertura formatação section */
+
+section {
+    background-color: black;
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 50px;
+    margin: 20px;
+
+}
+
+/* Fechamento formatação section */
+
+/* Abertura formatação parágrafo */
+
+p {
+    display: inline;
+    width: 75%;
+    height: 10%;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    float: left;
+    background-color: white;
+    border-radius: 20px;
+    text-align: left;
+}
+
+/* Fechamento formatação parágrafo */
+
+/* Abertura formatação #capa-cinema */
+#capa-cinema {
+    /* padding-right: 5px; */
+    margin: 0;
+    float: right;
+    width: 20%;
+    height: 190px;
+    border-radius: 20px;
+    display: inline;
+    white-space: nowrap
+
+}
+
+/* Fechamento formatação #capa-cinema */
+
+/* Abertura formatação #titulo-gallery */
+
+#titulo-gallery {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+/* Fechamento formatação #titulo-gallery */
+
+/* Abertura formatação .img-gallery */
+
+.img-gallery {
+    display: inline-block;
+    border-radius: 10px;
+
+}
+
+/* Fechamento formatação .img-gallery */
+
+/* Abertura formatação #img-gallery-1 */
+
+#img-gallery-1 {
+    width: 33%;
+    height: 270px;
+    float: left;
+    
+}
+
+/* Fechamento formatação #img-gallery-1 */
+
+/* Abertura formatação #img-gallery-2 */
+
+#img-gallery-2 {
+    width: 33%;
+    height: 270px;
+    float: right;
+}
+
+/* Fechamento formatação #img-gallery-2 */
+
+/* Abertura formatação #img-gallery-3 */
+
+#img-gallery-3 {
+    width: 33%;
+    height: 270px;
+    float: right;
+    padding-right: 8px;
+}
+
+/* Fechamento formatação #img-gallery-3 */
+
+footer {
+    display: block;
+    padding-top: 200px;
+}
+
+/* Formatação #titulo-credits */
+
+#titulo-credits {
+    padding-top: 50px;
+}
+
+/* Fechamento formatação #titulo-credits */
+
+/* Formatação .redes-sociais */
+
+.redes-sociais {
+    width: 100%;
+}
+
+/* Fechamento formatação .redes-sociais */
+
+/* Formatação #link-footer-1 e #link-footer-2 */
+
+#link-footer-1 {
+    width: 50%;
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+}
+#link-footer-2 {
+    width: 50%;
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+}
+
+/* Fechamento formatação #link-footer-1 e #link-footer-2 */
+
+#link-footer-1:hover, #link-footer-2:hover {
+
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    text-decoration: underline;
+
+}
+
